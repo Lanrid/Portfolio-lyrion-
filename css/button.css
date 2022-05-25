@@ -1,0 +1,78 @@
+.button {
+    max-width: 100%;
+    background: rgb(33, 54, 79);
+    padding: 150px 150px 0px 150px;
+}
+
+.button h3 {
+    color: #fff;
+}
+
+.button a {
+    color: rgb(214, 220, 238);
+    text-decoration: none;
+}
+
+.first_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    /* padding-top: 40px; */
+}
+
+.our_infos  {
+    width: 400px;
+    /* padding: 0 20px; */
+    /* padding: 50px; */
+}
+
+.our_infos > div a {
+    display: block;
+    flex-direction: column;
+}
+
+.button input {
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: initial;
+    display: block;
+}
+.placeholder_email::placeholder {
+    padding: 10px;
+    font-weight: 800;
+}
+.first_container button {
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+    background: rgb(12, 220, 235);
+    color: white;
+    font-weight: 800;
+}
+
+.second_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_container button {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: none;
+    background: rgb(124, 129, 142);
+}
+
+.second_container p {
+    color: #bbb;
+}
+/* @media (min-width:700) {
+    .second_container ul{
+        display: none;
+    }
+} */

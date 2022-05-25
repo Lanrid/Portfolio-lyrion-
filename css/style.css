@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+hr {
+    opacity: 0.2;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+}
+
+.my_contacts {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.c_logos {
+    margin-right: 0px;
+}
+
+header div a {
+    text-decoration: none;
+    color: rgb(124, 117, 117);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    height: 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu_bars a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: rgb(124, 117, 117);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header,
+nav {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    margin: 20px 0px !important;
+}
+
+
+
+/* ////////////////////////box////////////////// */
+.box {
+    background-image: url(/Images/Slider\ 3.jpg);
+    width: 100%;
+    height: 300px;
+    object-fit: center;
+    object-position: center;
+    opacity: 0.9;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.links a {
+    padding: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.box h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+/* /////////////button//////////// */
+
+
+
+
+
+
+
+

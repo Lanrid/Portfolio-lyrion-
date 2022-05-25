@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 40px;
+    text-align: left;
+    background: white;
+    border-radius: 20px;
+}
+.blocks {
+    margin: 20px 0;
+}
+.align {
+    text-align: center;
+    margin: 10px;
+    color: rgb(93, 91, 91);
+}
+.align h2,
+.align p {
+    margin: 10px 0; 
+}
+.align a {
+    text-decoration: none;
+}
+.align p {
+    text-align: center;
+    font-size: 17px;
+}
+label {
+    color: #aaa;
+    display: inline-block;
+    margin: 20px 0 10px;
+    font-size: 0.9rem;
+    letter-spacing: 0.px;
+    font-weight: bold;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(153, 152, 152);
+    margin: 20px 0 10px;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input,
+textarea {
+    height: 200px;
+    width: 100%;
+    display: block;
+    padding: 20px ;
+    border-radius: 3px;
+    border-style: none;
+    background: rgba(212, 206, 206, 0.317);
+}
+input {
+    height: 20px !important;
+}
+
+button {
+    margin: 40px 0;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(28, 224, 224);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border-style: none;
+}
+
