@@ -12,20 +12,20 @@
     color: rgb(214, 220, 238);
     text-decoration: none;
 }
-
+hr {
+    border: 0.8px black solid;
+    border-radius: 10px;
+}
 .first_container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 70px;
-    /* padding-top: 40px; */
 }
 
 .our_infos  {
     width: 400px;
-    /* padding: 0 20px; */
-    /* padding: 50px; */
 }
 
 .our_infos > div a {

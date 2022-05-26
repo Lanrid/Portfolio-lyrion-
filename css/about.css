@@ -18,7 +18,7 @@ body {
 .about_container > .about_img {
     margin: 50px; 
 }
-img {
+.about_container img {
     width: 400px;
     border-radius: 10px;
 }

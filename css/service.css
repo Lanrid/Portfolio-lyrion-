@@ -15,7 +15,7 @@ body {
     display: block;
     text-decoration: none;
 }
-a {
+.service_container a {
     text-decoration: none;
     object-fit: contain;
     object-position: center;
