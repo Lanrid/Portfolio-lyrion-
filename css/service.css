@@ -8,7 +8,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.bx {
+.service_container .bx {
     font-size: 36px;
     color: #2ea6cb;
     margin: auto;

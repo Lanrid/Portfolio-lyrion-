@@ -6,71 +6,37 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-}
-hr {
-    opacity: 0.2;
-}
-
-header {
-    width: 100%;
-    height: 40px;
-}
-
-.my_contacts {
-    display: flex;
-    justify-content: space-around;
-    height: 30px;
-}
-
-.c_logos {
-    margin-right: 0px;
-}
-
-header div a {
-    text-decoration: none;
-    color: rgb(124, 117, 117);
-    font-family: 'Courier New', Courier, monospace;
-    padding-left: 30px;
-}
-
-nav {
-    position: relative;
-    display: flex;
-    height: 50px;
-}
-
-.logo {
-    width: 100px;
-}
-
-.menu_bars a {
-    padding: 20px 10px;
-    text-decoration: none;
-    color: rgb(124, 117, 117);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.header,
-nav {
-    margin: 10px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 70%;
-    justify-content: center;
-    justify-content: space-between;
+    max-width:fit-content;
 }
 
 .carousel img {
     height: 500px;
     object-fit: cover;
+    opacity: 0.7;
 }
 
-.carousel-caption {
-    margin: 20px 0px !important;
+.carousel {
+    background: rgba(46, 65, 107, 0.85);
 }
-
-
+.carousel .carousel-caption {
+    text-align: center;
+    align-items: center;
+    margin: 200px auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+}
+.carousel-caption p {
+    padding-top: 40px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    margin: auto 10px;
+}
 
 /* ////////////////////////box////////////////// */
 .box {
